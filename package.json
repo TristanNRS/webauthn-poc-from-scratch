@@ -10,11 +10,15 @@
   },
   "dependencies": {
     "@prisma/client": "5.15.0",
+    "@simplewebauthn/server": "^10.0.0",
+    "iron-session": "8.0.0-beta.5",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "swr": "^2.2.5"
   },
   "devDependencies": {
+    "@github/webauthn-json": "^2.1.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
